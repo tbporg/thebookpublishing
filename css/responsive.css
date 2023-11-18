@@ -1,0 +1,2651 @@
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-toggler,
+    .submenu_sec .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse,
+    .submenu_sec .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .mainBanner h1 {
+        font-size: 3rem;
+    }
+
+    .slider-form {
+        margin-top: 25px;
+    }
+
+
+    img.ctab {
+        position: absolute;
+        top: -9.7rem;
+        right: -15rem;
+    }
+
+
+    .story-telling .cta-heading h2 {
+        font-size: 24px;
+    }
+
+    .story-telling:after {
+
+        width: 263px;
+        height: 337px;
+        right: 0;
+        top: -64px;
+    }
+
+    .story-telling:before {
+        content: '';
+        background: url(../images/story-left.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 329px;
+        height: 399px;
+        left: 0;
+        top: -21px;
+    }
+}
+
+@media only screen and (max-width: 1445px) {
+
+    .slider-form .form-control {
+
+        margin-right: 20px;
+
+    }
+
+    .mainBanner {
+        height: 650px;
+    }
+
+    .mainBanner > img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .mainBanner .carousel-caption {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        margin: auto;
+        padding-top: 8rem;
+    }
+
+    .abou-prof figure > img {
+        width: 65%;
+    }
+
+    .mainBanner p.smallText {
+        font-size: 0.775rem;
+    }
+
+    .mainBanner p.pargp {
+        width: 60%;
+    }
+
+    .mainBanner h1 {
+        line-height: 1;
+        font-size: 1.8rem;
+    }
+
+    .mainBanner .guaranteeLogo {
+        width: 70px;
+    }
+
+    .abou-prof figure::before {
+        right: 0;
+    }
+
+    .mainBanner .carousel-caption .form-inline {
+        width: 100%;
+        justify-content: center;
+        flex-flow: row;
+    }
+
+    .abou-prof {
+        padding: 3rem 0;
+    }
+
+    .slider-form .form-control {
+        width: 100%;
+    }
+
+
+    .shelf {
+        padding: 30px 0 30px;
+    }
+
+    .main-heading,
+    .faq h2 {
+        font-size: 2.5rem;
+    }
+
+    .cta {
+        position: relative;
+    }
+
+    .cta .col-md-3 {
+        position: static;
+    }
+
+    img.ctab {
+        top: -84px;
+        bottom: 0;
+        right: 0;
+        width: 280px;
+    }
+
+    .story-telling:after {
+
+        width: 263px;
+        height: 337px;
+        right: 0;
+        top: -64px;
+    }
+
+    .story-telling:before {
+        content: '';
+        background: url(../images/story-left.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 329px;
+        height: 399px;
+        left: 0;
+        top: -21px;
+    }
+
+    .story-telling .cta-heading h2 {
+        width: 60%;
+        margin: auto;
+    }
+
+    .abou-prof p {
+        line-height: 21px;
+        bottom: 3rem;
+        left: 5rem;
+    }
+
+    .question img.prof1 {
+
+        left: -6rem;
+
+        max-width: 300px;
+    }
+
+    .question img.prof3 {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+
+        left: -4rem;
+        z-index: -1;
+        max-width: 320px;
+    }
+
+    .question figure::after {
+
+        right: 9rem;
+        top: 17rem;
+
+        width: 209px;
+        height: 334px;
+
+    }
+
+    .question figure::before {
+
+        left: -2rem;
+        top: 5rem;
+
+    }
+
+    .question img.prof2 {
+
+        max-width: 355px;
+    }
+
+
+    .skill {
+        padding: 5rem 0 10rem;
+    }
+
+    .faq .card h2 button {
+        font-size: 1rem;
+    }
+
+
+    .count-num h3 {
+        font-size: 3.5rem;
+    }
+
+    .count-num span {
+        width: 40px;
+        height: 40px;
+    }
+
+    .count-num span i {
+        font-size: 1.5rem;
+    }
+
+    .number-wrap h4 {
+        font-size: 1.5rem;
+    }
+
+    .number-wrap p {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 1180px) and (max-width: 1444px) {
+    html {
+        font-size: 15px;
+    }
+
+    .service h1 {
+        font-size: 3.5rem;
+
+    }
+
+    .abou-prof figure::before {
+        right: 0;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 3rem 0;
+    }
+
+    header {
+        position: static;
+    }
+
+
+    .mainBanner p.pargp {
+        width: 40%;
+    }
+
+    .mainBanner .carousel-caption {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        margin: auto;
+        padding-top: 8rem;
+    }
+
+    .mainBanner .carousel-caption img {
+        height: auto;
+    }
+
+    .slider-form {
+
+        bottom: 120px;
+    }
+
+
+    img.ctab {
+        top: -6.5rem;
+        width: 310px;
+    }
+
+
+    img.prof2 {
+        margin: -10rem 0 0 3rem;
+    }
+
+    .abou-prof figure::before {
+        right: -30px;
+    }
+
+
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    img.ctab {
+        top: initial;
+        bottom: 0;
+        right: 0;
+        width: 250px;
+    }
+
+    .cta {
+        padding: 2.5rem 0;
+    }
+
+    .cta .form-inline {
+        gap: 1rem;
+    }
+
+    .cta-wrap .form-inline .themeBtn {
+        margin-left: 0;
+    }
+
+    .banner-form-inner .btn {
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .faq .card h2 button i {
+        font-size: 0.8rem;
+    }
+
+    .faq h2 {
+        font-size: 2.25rem;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 12px;
+    }
+
+    .what_offer h3 {
+        font-size: 2.25rem !important;
+        font-weight: 500;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .what_offer h3 strong {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+
+    .abou-prof .sub-heading span {
+        font-size: 2.25rem;
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    .why-choose .head-mm {
+        font-size: 2.5rem;
+    }
+
+    .why-choose strong {
+        font-size: 3rem;
+    }
+
+    .testi-head h1 {
+        text-align: center;
+        color: #1b0020;
+        font-size: 2.25rem !important;
+        margin-bottom: 20px;
+    }
+
+    .more-question h3 {
+        text-align: center;
+        color: var(--primary);
+        font-size: 2.25rem;
+        font-weight: 100;
+        margin-bottom: 20px;
+        font-family: 'PT Sans', sans-serif;
+
+    }
+
+    .sub-heading {
+        font-size: 2.25rem;
+    }
+
+    .sub-heading br {
+        display: none;
+    }
+
+    .mainBanner .bannerCaption {
+        width: 100%;
+        margin: auto;
+        border: 3px solid var(--primary);
+        padding:1.5rem 1rem;
+    }
+
+    .mainBanner .carousel-caption {
+        margin-top: 0;
+        padding-top: 3rem;
+        align-items: flex-start;
+        top: 43%;
+    }
+
+    .slider-form {
+        bottom: 158px;
+        justify-content: center;
+    }
+
+    .mainBanner .carousel-caption .form-inline {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ratting {
+        flex-flow: wrap;
+        margin-top: 21rem;
+    }
+
+
+    .slider-form .form-group {
+        margin: 0.4rem 0;
+        width: 100%;
+    }
+
+    .mainBanner p.pargp {
+        width: 80%;
+    }
+
+    .mainBanner p.smallText {
+        font-size: 0.875rem;
+    }
+
+    .fr-logo img {
+        width: 50px;
+    }
+
+    .fr-logo {
+        gap: 1rem;
+    }
+
+    .abou-prof figure {
+        margin: 2rem 0;
+    }
+
+    section {
+        padding: 3rem 0;
+    }
+
+    img.ctab {
+        display: none;
+    }
+
+    .cta-wrap h3 {
+        text-align: center;
+    }
+
+    .cta {
+        padding: 3.5rem 0;
+    }
+
+    .mainBanner {
+        height: auto;
+        margin: 0;
+        background: #fbf6e7;
+    }
+
+    .logo-part {
+        display: none;
+    }
+
+    .cta .form-inline {
+        justify-content: center;
+    }
+
+
+    .abou-prof p {
+        line-height: 1.6;
+    }
+
+    .cta-links .live-chat a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+/* 2nd */
+@media (max-width: 1633px) {
+    .posabs {
+        width: 500px;
+        top: -11rem;
+    }
+
+    .mainbanner .bannerimg {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .submenu_sec .navbar-nav .nav-link {
+        padding: 10px 22px !important;
+    }
+
+    .mainbanner h1 {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 1480px) {
+
+    .mainbanner .bannerimg {
+        max-width: 120%;
+    }
+
+    section.our-range img {
+        max-width: 100%;
+    }
+
+    section.cta-hire:before {
+        width: 240px;
+        background-size: 100%;
+    }
+
+    section.cta-hire:after {
+        width: 240px;
+        background-size: 100%;
+    }
+
+    .service-blogslider .slick-list {
+        overflow: hidden !important;
+    }
+
+    .whychoose-right {
+        padding: 0;
+    }
+
+    .cta-heading h2 {
+        font-size: 32px;
+    }
+
+    section.cta-book-writting p {
+        font-size: 17px;
+    }
+
+    section.cta-hire:before {
+        left: -140px;
+        top: -8px;
+    }
+
+    section.cta-hire:after {
+        right: -230px;
+    }
+
+    section.cta-book-writting:before {
+        left: -170px;
+        top: -58px;
+    }
+
+    section.cta-book-writting:after {
+        right: -90px;
+    }
+
+    .side-bars-1 {
+        width: 50%;
+    }
+
+    #popup .popup-form-wrap h2 {
+        margin-top: 50px;
+        font-size: 50px;
+        line-height: 36px;
+    }
+
+    #popup .discount-label {
+        height: 53px;
+        margin: 20px 0 25px;
+    }
+
+    #popup .popup-form-wrap p {
+        font-size: 15px;
+    }
+
+    #popup .form-box-wrap {
+        width: 80%;
+    }
+
+    #popup .popup-form-wrap {
+        height: 650px;
+    }
+}
+
+@media (min-width: 1180px) and (max-width: 1480px) {
+    .mainbanner .bannerimg {
+        max-width: 100%;
+        object-fit: cover;
+        height: 750px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .mainbanner h1 {
+        font-size: 45px;
+    }
+
+    .main_header .nav-link {
+        font-size: 15px;
+    }
+
+    .submenu_sec .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .mainbanner .col-md-7 img {
+        max-width: 100%;
+    }
+
+    .posabs {
+        width: 400px;
+    }
+
+    .submenu_sec .navbar-nav .nav-link {
+        padding: 10px 13px !important;
+    }
+
+    .head-mm {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .head-mm strong {
+        font-size: 40px;
+    }
+
+    .sellbook .head-mm {
+        font-size: 30px;
+        padding: 1rem 0;
+    }
+
+    .sp-content {
+        padding-left: 0;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    section.cta-book-writting:before,
+    section.cta-book-writting:after,
+    section.why-choose:before,
+    section.why-choose:after,
+    section.cta-hire:before,
+    section.cta-hire:after {
+        display: none;
+    }
+
+    .left-whychoose img {
+        max-width: 100%;
+    }
+
+    section.cta-book-writting {
+        padding: 30px 0;
+    }
+
+    .pg-padding {
+        padding: 50px 0;
+    }
+
+    section.cta-hire {
+        padding: 50px 0;
+    }
+
+    section.cta-hire .cta-heading h2 {
+        font-size: 44px;
+    }
+
+    .our-range-left h3 {
+        font-size: 30px;
+    }
+
+    .our-range-left h3 strong {
+        font-size: 32px;
+    }
+
+    .our-range-gsingle.gs1:before {
+        font-size: 80px;
+    }
+
+    .our-range-gsingle.gs2:before {
+        font-size: 80px;
+    }
+
+    .our-range-gsingle.gs3:before {
+        font-size: 80px;
+    }
+
+    .our-range-gsingle {
+        padding: 30px 0 30px 0;
+    }
+
+    .testi-head h1 {
+        font-size: 40px;
+    }
+
+    section.company-rating {
+        padding: 30px 0;
+    }
+
+    .avail a {
+        padding: 15px 20px;
+    }
+
+    .trustreviewssite {
+        display: none;
+    }
+
+    .avail-header h2 {
+        font-size: 38px;
+    }
+
+    .avail-header p {
+        font-size: 20px;
+    }
+
+    .single-trust p {
+        font-size: 14px;
+    }
+
+    section.cta-hire.services-cta:before,
+    section.cta-hire.services-cta:after {
+        width: 280px;
+        background-size: 100%;
+    }
+
+    section.cta-hire.services-cta:after {
+        display: none;
+    }
+
+    .banner-inner-form {
+        top: -100px;
+    }
+
+}
+
+@media (max-width: 1166px) {
+    .banner-inner-form {
+        top: -60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    section.main_about .imgbx img {
+        width: 100%;
+    }
+
+    .imgbx {
+        height: 100%;
+        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainbanner h1 {
+        font-size: 35px;
+    }
+
+    .equiped-checklist ul li {
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width: 850px) {
+    .container {
+        max-width: 90%;
+        padding: 0;
+    }
+
+    .our-range {
+        text-align: center;
+    }
+
+    .book_bestseller:before,
+    .book_bestseller .col-md-9:before {
+        display: none;
+    }
+
+    .sellbook .head-mm {
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .sellbook {
+        padding-bottom: 15px;
+    }
+
+    .book_bestseller {
+        padding: 1rem 0;
+    }
+
+    .book_bestseller ul {
+        columns: 2;
+        display: block;
+    }
+
+    .listtabs li:before {
+        display: none;
+    }
+
+    .slides_bookplatform img {
+        margin: 0 30px;
+    }
+
+    .book_bestseller h3 {
+        display: block;
+    }
+
+    .book_bestseller h3:before {
+        width: 100%;
+    }
+
+    .booksdv img {
+        margin: auto;
+    }
+
+    .books_slides .books-boxes {
+        padding: 20px 20px;
+    }
+
+    .books_slides .books-boxes img {
+        margin: auto;
+    }
+
+    .books_slides .books-boxes .ratings {
+        margin-top: 10px;
+    }
+
+    .books_slides .items {
+        margin-bottom: 30px;
+    }
+
+    .book_bestseller h3 {
+        text-align: center;
+    }
+
+    .sellbook .head-mm br {
+        display: none;
+    }
+
+    .featuredsec {
+        display: none;
+    }
+
+    section.why-choose .row:after {
+        display: none;
+    }
+
+    .why-choose-single:before {
+        right: initial;
+        left: 0;
+    }
+
+    .left-whychoose .why-choose-single {
+        padding-right: initial;
+        padding-left: 40px;
+    }
+
+    .right-whychoose .why-choose-single:before {
+        left: initial;
+    }
+
+    .why-choose-single {
+        padding-left: 70px !important;
+    }
+
+    .why-choose-single:before {
+        right: initial !important;
+        left: 0 !important;
+    }
+
+    .why-choose .row .col-md-6:first-child {
+        order: 2;
+    }
+
+    .why-choose .row .col-md-6:last-child {
+        order: 1;
+    }
+
+    .right-whychoose .text-right {
+        text-align: center !important;
+    }
+
+    .right-whychoose img {
+        margin: auto;
+        margin: 10px 0;
+    }
+
+    .mainbanner .posabs {
+        display: none;
+    }
+
+    .book_bestseller {
+        padding: 2rem 0;
+    }
+
+    .right-whychoose img,
+    .left-whychoose img {
+        display: none;
+    }
+
+    .right-footer .phone {
+        display: none;
+    }
+
+    .copyr-content p {
+        font-size: 14px;
+    }
+
+    .our-range-two {
+        background: transparent;
+    }
+
+    .our-range-grid {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .our-range-gsingle img {
+        margin: auto;
+    }
+
+    .our-range-gsingle {
+        border: 1px solid #dfdfdf !important;
+    }
+
+    .our-range-left h3 br {
+        display: none;
+    }
+
+    .cta-links {
+        display: block;
+    }
+
+    section.cta-hire .cta-heading h2 {
+        font-size: 28px;
+    }
+
+    .getstart,
+    .callus {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+@media (max-width: 490px) {
+    .modal-dialog.modal-dialog-centered {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .talk_list li {
+        padding: 0 10px;
+    }
+
+    .mainbanner h1 {
+        font-size: 30px;
+    }
+
+    .mainbanner p {
+        font-size: 16px;
+    }
+
+    .single-teamabt {
+        width: 100%;
+    }
+
+    .single-teamabt img {
+        margin: auto;
+    }
+
+    .team-cont {
+        display: block;
+    }
+
+    .right-ourclients h3 {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 1600px) {
+    .cta_img_left {
+        left: 12%
+    }
+
+    .cta_img_right {
+        right: 11%
+    }
+
+    .banner-left p span {
+        display: block
+    }
+
+    .banner-left h1 {
+        font-size: 40px
+    }
+
+    .banner-left strong {
+        display: inherit;
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 1440px) {
+    .cta_img_left {
+        left: 9%
+    }
+
+    .cta_img_right {
+        right: 8%
+    }
+
+    .banner {
+        background-position: 95px -62px
+    }
+
+    .banner {
+        padding: 30px 0
+    }
+
+    .banner-left h1 {
+        font-size: 44px
+    }
+
+    .main_cta {
+        background-position: right
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 0 0 58.333333% !important;
+        max-width: 58.333333% !important;
+        z-index: 999
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .services-sec-slider-ltr .slick-slide img,
+    .services-sec-slider-rtl .slick-slide img {
+        max-width: 120px;
+    }
+
+    .form-back {
+        border: 5px solid var(--primary);
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        left: 29%;
+
+        border-radius: 10px;
+    }
+
+    .cta_img_left {
+        left: 3%
+    }
+
+    .cta_img_right {
+        right: 2%
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 39px
+    }
+
+    .banner-right {
+        top: -190px
+    }
+}
+
+@media (max-width: 1199px) {
+    .form-back {
+        border: 5px solid var(--primary);
+        height: 450px;
+        width: 300px;
+        position: absolute;
+        left: 20%;
+
+        border-radius: 10px;
+    }
+
+    .banner {
+        background-position: bottom
+    }
+
+    .cta_img_left {
+        left: 2%;
+        top: 60px
+    }
+
+    .cta_img_left img,
+    .cta_img_right img {
+        width: 80%
+    }
+
+    .cta_img_right {
+        right: 1%;
+        top: 50px
+    }
+
+    .banner-left h1 {
+        font-size: 38px
+    }
+
+    .banFormTp h2 {
+        font-size: 26px
+    }
+
+    .banFormTp h3 {
+        font-size: 21px
+    }
+
+    .banFormTp-p {
+        font-size: 15px
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 33px
+    }
+
+    .cta_text_wrap p {
+        font-size: 15px
+    }
+
+    .cta_btn a {
+        padding: 14px 10px
+    }
+
+    .review-content {
+        padding: 20px
+    }
+
+    .review-content p {
+        font-size: 13px
+    }
+
+    .banner-right {
+        top: -140px
+    }
+}
+
+@media (max-width: 991px) {
+    .posabs {
+        width: 360px;
+        top: -190px;
+        left: 40px;
+    }
+
+    .main_header nav.navbar {
+        padding: 0 0 0;
+    }
+
+    .tal_us {
+        justify-content: center;
+    }
+
+    .mainbanner h1 {
+        padding-top: 0;
+    }
+
+    .mainbanner p {
+        font-size: 18px;
+    }
+
+    .mainbanner .bannerimg {
+        max-width: 100%;
+        height: 430px;
+        object-fit: cover;
+    }
+
+    .mainbanner .container {
+        top: 50%;
+    }
+
+    .mainBanner .carousel-caption {
+        width: 85%;
+    }
+
+    .navbar > .container-fluid {
+        justify-content: center;
+    }
+
+    .head-mm strong {
+        font-size: 30px;
+    }
+
+    .listtabs li a {
+        font-size: 16px;
+    }
+
+    .booksdv img {
+        max-width: 100%;
+    }
+
+    .books_slides .books-boxes {
+        padding-bottom: 10px;
+        height: initial;
+    }
+
+    .book_bestseller h3 {
+        padding: 1rem 0 1rem;
+    }
+
+    .sp-img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .single-premium {
+        text-align: center;
+        display: block;
+        min-height: initial;
+    }
+
+    .sp-content img {
+        margin: auto;
+    }
+
+    .cta-heading h2 {
+        font-size: 30px;
+    }
+
+    .why-choose-single.one-whychoose h4:after,
+    .why-choose-single.two-whychoose h4:after,
+    .why-choose-single.three-whychoose h4:after,
+    .why-choose-single.four-whychoose h4:after,
+    .why-choose-single.five-whychoose h4:after,
+    .why-choose-single.six-whychoose h4:after {
+        font-size: 110px !important;
+    }
+
+    .why-choose-single {
+        margin-bottom: 0;
+    }
+
+    .why-choose-single h4 {
+        margin-top: 50px;
+    }
+
+    section.cta-hire:before,
+    section.cta-hire:after {
+        display: none;
+    }
+
+    section.cta-hire .cta-heading h2 {
+        font-size: 35px;
+    }
+
+    section.cta-hire {
+        padding: 30px 0;
+    }
+
+    .getstart a {
+        font-size: 15px;
+        padding: 13px 30px;
+    }
+
+
+    .crating {
+        font-size: 30px;
+    }
+
+    .testi-slider img {
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .main-single-footer {
+        display: block;
+    }
+
+    .single-top-footer {
+        margin: 15px 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .single-top-footer img {
+        width: 30px;
+    }
+
+    .top-footer {
+        padding: 20px 0;
+    }
+
+    .avail h2 {
+        font-size: 20px;
+    }
+
+    .avail a {
+        padding: 10px 20px;
+    }
+
+    .payment-footer h4 {
+        font-size: 16px;
+    }
+
+    .copyrights,
+    .footer-awards {
+        margin-top: 20px;
+    }
+
+    .c-rating-single {
+        text-align: center;
+    }
+
+    .c-rating-single img {
+        margin: auto;
+    }
+
+    .c-rating-single img:first-child {
+        margin: 0 15px 0 0;
+    }
+
+    .cname {
+        margin-right: 10px;
+    }
+
+    .testimonial-single p:last-child {
+        min-height: initial;
+    }
+
+    .our-range-two {
+        text-align: center;
+    }
+
+    .pg-padding {
+        padding: 30px 0;
+    }
+
+    .our-range-two img {
+        margin-bottom: 15px;
+    }
+
+    .menu-Bar {
+        display: block;
+    }
+
+    .menu-Bar {
+        display: block;
+        top: 0;
+    }
+
+    .menuWrap.open {
+        display: flex;
+        left: 0;
+        overflow-y: scroll;
+    }
+
+    .menuWrap {
+        position: fixed;
+        inset: 0 0 0 -210%;
+        margin: auto;
+        background: var(--primary);
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-flow: column;
+        transition: all 0.4s ease 0s;
+        z-index: 11;
+        width: 100vw;
+    }
+
+    ul.menu li {
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu li {
+        padding-left: 0;
+        margin-left: 22px;
+    }
+
+    ul.menu li a {
+        padding: 0;
+        display: block;
+        text-align: left;
+        line-height: 51px;
+        margin-right: 0;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-transform: capitalize;
+        position: relative;
+        padding-left: 22px;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        min-width: 100%;
+        float: initial;
+        margin-bottom: 10px;
+        padding: 2px 2px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul.menu .dropdown-menu a {
+        color: #000;
+    }
+
+    .menu li:hover a,
+    .menu li.active a.dropdown-toggle {
+        color: #fff;
+        background: var(--secondary);
+        margin-bottom: 0;
+    }
+
+    ul.menu .dropdown-menu a {
+        background: #3f3d52;
+        line-height: 13px;
+        color: #fff;
+        padding: 10px 10px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #515151;
+        font-size: 16px;
+    }
+
+    .dropdown-menu {
+        background: #3f3d52;
+    }
+
+    ul.menu .dropdown-menu a:hover {
+        color: var(--primary);
+    }
+
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 9px;
+        top: 23px;
+    }
+
+    ul.menu li a strong {
+        font-weight: normal;
+    }
+
+    .left-gotidea.abt {
+        box-shadow: none;
+    }
+
+
+    .main_header {
+        position: relative;
+        top: 0;
+        z-index: initial;
+        /* padding: 2rem 0; */
+    }
+
+    .submenu_sec {
+        padding: 0;
+    }
+
+    .banner-trust {
+        font-size: 14px;
+        display: none;
+    }
+
+    .banner-inner-form {
+        width: 100%;
+    }
+
+    .left-gotidea.abt {
+        line-height: normal;
+    }
+
+    .left-gotidea a {
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+
+    .whychoose-single h3 {
+        font-size: 25px;
+    }
+
+    .mp3_dv:before {
+        left: -55px;
+        top: -60px;
+    }
+
+    .footer-awards ul {
+        display: block;
+    }
+
+    .footer-awards ul img {
+        margin: auto;
+    }
+
+    .listtabs li {
+        margin: 0;
+    }
+
+    .form-back {
+        display: none;
+    }
+
+    .main_cta:before {
+        display: none
+    }
+
+    .cta_img_left,
+    .cta_img_right {
+        display: none
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 30px
+    }
+
+    .cta_btn a {
+        font-size: 14px;
+        padding: 13px 24px;
+        margin: 0 11px;
+        line-height: 20px
+    }
+
+    .books-sec.lazy-background .col-sm-4 {
+        flex: 100%;
+        max-width: 100%
+    }
+
+    .banner-left h1 {
+        font-size: 28px
+    }
+
+    .banFormTp h2 {
+        font-size: 19px
+    }
+
+    .banFormTp h3 {
+        font-size: 15px
+    }
+
+    .custombtn {
+        font-size: 17px
+    }
+
+    .sec-hdg {
+        font-size: 32px
+    }
+
+    .margin-left {
+        margin-left: 20px
+    }
+
+    .books-info p {
+        font-size: 14px
+    }
+
+    .books-p {
+        padding-right: 43px
+    }
+
+    .books-info {
+        margin: 0 0 0
+    }
+
+    .pack-sec {
+        background-position: right
+    }
+
+    .features-ul li {
+        padding: 10px 17px
+    }
+
+    .features-ul li .icn-tooltip .tooltip-innr {
+        font-size: 10px
+    }
+
+    .review-content {
+        padding: 12px
+    }
+
+    .review-content p {
+        font-size: 12px
+    }
+
+    .review-content {
+        min-height: 203px;
+    }
+
+    .footer-form input::placeholder {
+        font-size: 12px
+    }
+
+    .footer-form textarea::placeholder {
+        font-size: 12px
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 0 0 70.333333% !important;
+        max-width: 83.333333% !important;
+        z-index: 999
+    }
+
+    .main-footer::before {
+        top: -28px
+    }
+
+    .footer_logo {
+        display: none
+    }
+
+    .copyright_img {
+        text-align: center
+    }
+
+    .main_coryright {
+        height: 140px
+    }
+
+    .menu-inline {
+        margin-bottom: 7px
+    }
+
+    .features-ul li .icn-tooltip {
+        bottom: auto
+    }
+
+    .sec-pad {
+        padding: 40px 0 100px
+    }
+
+    .book_bestseller:before,
+    .book_bestseller .col-md-9:before {
+        display: none;
+    }
+
+    .sellbook .head-mm {
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .sellbook {
+        padding-bottom: 15px;
+    }
+
+    .book_bestseller {
+        padding: 1rem 0;
+    }
+
+    .book_bestseller ul {
+        columns: 2;
+        display: block;
+        padding: 0;
+        overflow: scroll;
+    }
+
+    .listtabs li:before {
+        display: none;
+    }
+
+    .slides_bookplatform img {
+        margin: 0 30px;
+    }
+
+    .book_bestseller h3 {
+        display: block;
+    }
+
+    .book_bestseller h3:before {
+        width: 100%;
+    }
+
+    .booksdv img {
+        margin: auto;
+    }
+
+    .books_slides .books-boxes {
+        padding: 20px 20px;
+    }
+
+    .books_slides .books-boxes img {
+        margin: auto;
+    }
+
+    .books_slides .books-boxes .ratings {
+        margin-top: 10px;
+    }
+
+    .books_slides .items {
+        margin-bottom: 30px;
+    }
+
+    .book_bestseller h3 {
+        text-align: center;
+    }
+
+    .sellbook .head-mm br {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .mainbanner {
+        position: relative;
+        padding: 50px 0;
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .mainbanner .bannerimg {
+        max-width: 310%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: initial;
+    }
+
+    .mainbanner .container {
+        position: relative;
+        top: 0;
+        transform: initial;
+    }
+
+    .main_about {
+        padding: 2rem 0 3rem;
+    }
+
+    .bnr_form_box form .input-group {
+        display: block;
+    }
+
+    .form_btn_wrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .talk_list {
+        margin-right: 0;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .more-question h3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-list ul {
+        padding: 0 15px 10px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .footer-list h4 br {
+        display: none;
+    }
+
+    .footer-list ul li {
+        margin-bottom: 5px;
+    }
+
+    .footer-list li a {
+        font-size: 16px;
+    }
+
+    .copyr-content {
+        display: block;
+        text-align: center;
+    }
+
+    .main_header .logo {
+        width: 250px;
+    }
+
+    .abtrange h3 {
+        font-size: 36px !important;
+        line-height: 40px;
+    }
+
+    .abtrange h3 strong {
+        font-size: 40px !important;
+    }
+
+    .whychoose-right {
+        padding: 0 0;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+
+    button#signupBtn {
+        font-size: 16px;
+    }
+
+    .avail-header h2 {
+        font-size: 35px;
+    }
+
+    .avail-header p {
+        font-size: 20px;
+    }
+
+    /* form.leadForm{ padding: 20px 20px; } */
+    .banner-inner-form {
+        padding: 10px 0 0 0;
+    }
+
+    .whychoose-single h3 {
+        font-size: 25px;
+    }
+
+    .whychs-1:before,
+    .whychs-2:before,
+    .whychs-3:before,
+    .whychs-4:before,
+    .whychs-5:before {
+        left: -58px;
+    }
+
+    .margin-row {
+        margin-top: 40px;
+    }
+
+    .whychoose-left {
+        border-left: none;
+    }
+
+    .service-genre .col-md-3 {
+        background: #eaeaf4;
+    }
+
+    .left-gotidea.abt {
+        text-align: center;
+    }
+
+    .service-qoute a {
+        padding: 10px 15px;
+    }
+
+    section.mainbanner.inner-page-banner h1 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .service-qoute.aboutchat {
+        justify-content: center;
+    }
+
+    .bnr_form_box {
+        margin-bottom: 0;
+    }
+
+    .main_about {
+        text-align: center;
+    }
+
+    .contentsect_dv h3.head-mm {
+        margin: 0 0 30px;
+    }
+
+    .singlesrv-grid {
+        text-align: center;
+        display: block;
+    }
+
+    .singlesrv-grid img {
+        margin-bottom: 10px;
+    }
+
+    .story-cont {
+        padding-left: 0;
+    }
+
+    .blog-heading h3 {
+        font-size: 28px;
+    }
+
+    .single-r-client {
+        position: relative;
+        top: 0;
+    }
+
+    .service-qoute.aboutchat {
+        margin: 20px auto;
+    }
+
+    .review-stars {
+        justify-content: center;
+    }
+
+    .video-area {
+        margin-top: 15px;
+    }
+
+    .right-ourclients {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .right-ourclients h3 {
+        font-size: 40px;
+    }
+
+    .left-contact {
+        text-align: center;
+    }
+
+    .left-contact h3.head-mm {
+        font-size: 35px;
+    }
+
+    .banner-trust {
+        display: block;
+    }
+
+    .trustreviewssite {
+        display: none;
+    }
+
+    .banner-inner-form {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .pro-service {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .equiped-checklist ul li {
+        float: initial;
+        width: 100%;
+    }
+
+    .single-blogslider {
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+
+    .right-footer {
+        display: none;
+    }
+
+    .single-processstory:before {
+        left: 52px;
+    }
+
+    .single-pro-before {
+        left: 0;
+    }
+
+    .single-processstory {
+        padding: 0 40px 0 70px;
+    }
+
+    .single-processstory h3 {
+        width: 100%;
+    }
+
+    section.processstory .row {
+        margin-top: 0;
+    }
+
+    section.cta-book-writting.getbook h2 {
+        font-size: 30px;
+    }
+
+    .service-genre .row {
+        margin-top: 0;
+    }
+
+    .avail {
+        display: none;
+    }
+
+    .popup-form-wrap {
+        height: 510px;
+    }
+
+    .discountbadges {
+        left: -88px;
+    }
+
+    .discountbadges p {
+        font-size: 20px !important;
+    }
+
+    .popupformmm_dvs {
+        width: 90%;
+        padding-left: 40px;
+    }
+
+    .popupformmm_dvs .row .col-md-6:nth-child(2) {
+        display: none;
+    }
+
+    .discountbadges .iconarrows {
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .modal-dialog.modal-dialog-centered {
+        max-width: 500px !important;
+    }
+
+    section.mainbanner.inner-page-banner h1 {
+        font-size: 28px;
+    }
+
+    .mp3_dv:before {
+        display: none;
+    }
+
+    .c-rating-single img:first-child {
+        margin: 0 15px 0 0;
+    }
+
+    .cname {
+        margin-right: 20px;
+    }
+
+    ul#awards_block {
+        justify-content: center;
+    }
+
+    ul#awards_block li img {
+        height: 80px;
+    }
+    .form-back {
+        display: none;
+    }
+
+    .call-us-wraper {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .cta_btn a {
+        font-size: 13px;
+        padding: 11px 17px;
+        margin: 0 8px;
+        line-height: 19px
+    }
+
+    .main-footer-text h3 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .social .social-icons.padd-btd {
+        padding: 0;
+        border: 0;
+        text-align: center
+    }
+
+    .footer-logo {
+        text-align: center
+    }
+
+    .banner {
+        background-position: inherit
+    }
+
+    .banner-right {
+        margin-top: 35px;
+        position: initial
+    }
+
+    .brand-logo {
+        text-align: center;
+        margin: 15px 0
+    }
+
+    .cta_text_wrap p {
+        font-size: 13px
+    }
+
+    .banFormTp h2 {
+        font-size: 30px
+    }
+
+    .banFormTp h3 {
+        font-size: 24px
+    }
+
+    .banFormTp-p {
+        font-size: 17px
+    }
+
+    .banner {
+        padding: 45px 0
+    }
+
+    .books-sec.lazy-background {
+        padding: 6% 0;
+        text-align: center
+    }
+
+    .sec_title_main {
+        margin-bottom: 25px
+    }
+
+    .features-ul li {
+        display: inline-block
+    }
+
+    .features-ul {
+        padding: 0
+    }
+
+    .features-ul li .icn-tooltip .tooltip-innr {
+        display: none
+    }
+
+    .sec-pad {
+        padding: 40px 0 10px
+    }
+
+    .why-choose .owl-carousel .owl-item img {
+        width: auto
+    }
+
+    .slide-image {
+        margin-top: 30px
+    }
+
+    .reviews img {
+        width: auto !important;
+        margin: 0 auto
+    }
+
+    .review-content {
+        height: 120px
+    }
+}
+
+@media (max-width: 575px) {
+    p, .genre-card p {
+        font-size: 16px;
+    }
+
+    .listtabs li a {
+        font-size: 1rem;
+    }
+
+    .popupform {
+        width: 100%;
+    }
+
+    .slick-dots li button {
+        width: 15px;
+        height: 5px;
+    }
+
+
+    .form-back,
+    .books-sec.lazy-background :before,
+    .books-sec.lazy-background :after,
+    .story-telling:before,
+    .story-telling:after,
+    .question img.prof1,
+    .question img.prof2,
+    .question figure::before,
+    .question figure::after,
+    .talk_list {
+        display: none
+    }
+
+    .question img.prof3 {
+        position: static;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .question figure {
+        min-height: auto;
+    }
+
+    .story-telling .cta-heading h2 {
+        width: auto;
+        margin: 0 0 2rem;
+    }
+
+    .cta_btn a {
+        font-size: 11px
+    }
+
+    .cta_text_wrap p {
+        font-size: 12px
+    }
+
+    .slick-dots li button {
+        width: 15px;
+        height: 5px;
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 28px
+    }
+
+    .main-footer-text h3 {
+        font-size: 22px
+    }
+
+    .main-footer::before {
+        top: -3px
+    }
+
+    .call-us {
+        margin-right: 25px;
+        font-size: 11px
+    }
+
+    .call-us-wraper span {
+        font-size: 12px
+    }
+
+    .contactBanner {
+        background-position: left top;
+    }
+
+    .say-hello .wrap_form {
+        padding: 0;
+    }
+
+    .pinkbtn {
+        display: flex;
+        align-items: center;
+    }
+
+    .pinkbtn, .blueborderbtn {
+        font-size: 1rem;
+    }
+
+    ul.menu li a {
+        font-size: 1.25rem;
+        padding-left: 10px;
+    }
+
+    .service {
+        background-size: cover;
+        background-position: right -40rem center;
+    }
+
+    .service-remarks ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0 0 1rem;
+    }
+
+    .slides_bookplatform, .wrap_form {
+        margin-top: 20px;
+    }
+
+    .tools h1, .story-writing h1, .Genre h3, .writing h1, .contact h2 span {
+        font-size: 2.5rem;
+    }
+
+    .tal_us p {
+        font-size: 12px;
+    }
+
+    .writing .col-md-6 strong {
+        font-size: 20px;
+    }
+
+    .tal_us {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+
+    .mainBanner h1 {
+        line-height: 1.1;
+        font-size: 2.25rem;
+    }
+
+    form.offr-frm {
+        width: 80%;
+    }
+
+    .mainBanner img {
+        display: none;
+    }
+
+    .mainBanner .carousel-caption {
+        position: static;
+        transform: none;
+    }
+
+    .what_offer h3 {
+        font-size: 2rem !important;
+        font-weight: 500;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .mainBanner .carousel-caption img {
+        display: inline-block;
+        margin: 0 0 10px;
+    }
+
+    .abou-prof figure {
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    img.prof2 {
+        display: none;
+    }
+
+    .abou-prof figure::before {
+        right: 0;
+    }
+
+    .abou-prof figure::after {
+        top: 0;
+        width: 180px;
+        height: 320px;
+    }
+
+    section.abou-prof:before {
+        height: 218px;
+        width: 314px;
+        left: 0;
+        top: 350px;
+        background-size: contain;
+    }
+
+    .what_offer h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .what_offer h3 strong {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+
+    section.abou-prof:after {
+        height: 450px;
+        width: 180px;
+        right: 0;
+        bottom: 0;
+        background-size: contain;
+    }
+
+
+    .cta-wrap p {
+        text-align: center;
+    }
+
+    .cta-wrap .form-inline .themeBtn {
+        margin: 0;
+    }
+
+
+    .why-choose .head-mm {
+        font-size: 2rem;
+    }
+
+    .why-choose strong {
+        font-size: 2.25rem;
+    }
+
+    .testi-head h1 {
+        text-align: center;
+        color: #1b0020;
+        font-size: 2.25rem !important;
+        margin-bottom: 20px;
+    }
+
+    .more-question h3 {
+        text-align: center;
+        color: var(--primary);
+        font-size: 2rem;
+        font-weight: 100;
+        margin-bottom: 20px;
+        font-family: 'PT Sans', sans-serif;
+
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading br {
+        display: none;
+    }
+    .services-sec-box{
+        flex-flow: column;
+        gap: 1rem;
+        padding: 20px 20px;
+    }
+    .services-sec-box-inner {
+        padding: 0;
+    }
+    .services-sec-slider-ltr .slick-slide img, .services-sec-slider-rtl .slick-slide img {
+        max-width: 80px;
+    }
+    .cta-wrap h3 {
+        margin: 0 0 20px;
+    }
+    .slider-form {
+        bottom: 148px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-back {
+        display: none;
+    }
+
+    .cta_text_wrap p {
+        font-size: 14px
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 20px
+    }
+
+    .cta_btn a {
+        font-size: 10px;
+        margin: 0 3px
+    }
+
+    .popupform h2 {
+        font-size: 17px
+    }
+
+    .popupform ul li {
+        width: 100%
+    }
+
+    .popupform ul li.first,
+    .popupform ul li:nth-child(4) {
+        width: 100%
+    }
+
+    .popupform .fancybox-close-small {
+        right: 3px;
+        top: -5px
+    }
+
+    .review-content {
+        height: 155px
+    }
+
+    .main-footer-text h3 {
+        font-size: 18px
+    }
+
+    .main-footer::before {
+        display: none
+    }
+
+    .main-footer .col-lg-8 {
+        flex: 100% !important;
+        max-width: 100% !important;
+        z-index: 999
+    }
+
+    .main-footer::after {
+        display: none
+    }
+
+    .copyright_text p {
+        font-size: 15px
+    }
+
+
+}
+
+@media (max-width: 414px) {
+    .form-back {
+        display: none;
+    }
+
+    .cta_btn {
+        flex-direction: column
+    }
+
+    .cta_btn a {
+        font-size: 13px;
+        padding: 11px 29px;
+        margin: 0 0;
+        margin-bottom: 13px
+    }
+
+    .main_cta {
+        height: auto;
+        padding: 40px 0
+    }
+
+    .call-us {
+        display: none
+    }
+
+    .banner-left h1 {
+        font-size: 28px
+    }
+
+    .banFormTp h2 {
+        font-size: 28px
+    }
+
+    .banFormTp h3 {
+        font-size: 21px
+    }
+
+    .banFormTp-p {
+        font-size: 13px
+    }
+
+    .sec-hdg {
+        font-size: 28px
+    }
+
+    .cta_text_wrap h3 {
+        font-size: 24px
+    }
+
+    .books-info figure:before {
+        display: none
+    }
+
+    .pack-sec {
+        background-position: bottom
+    }
+
+    .main-footer-text h3 {
+        font-size: 18px
+    }
+
+    .main-footer-text p {
+        font-size: 18px
+    }
+
+    .menu-inline li a {
+        font-size: 11px
+    }
+
+    .main_coryright {
+        height: 150px
+    }
+
+    .copyright_text p {
+        font-size: 13px
+    }
+
+    .footer-form-control {
+        padding-top: 12px
+    }
+
+    .footer-form-textarea {
+        margin-top: 12px
+    }
+
+    .feature-sec.animatedParent > .sec-hd span {
+        font-size: 25px
+    }
+
+    .call-us-wraper {
+        justify-content: center
+    }
+
+    .brand-logo {
+        margin: 15px 0 20px
+    }
+
+    .books-info figure {
+        display: inherit
+    }
+
+    .books-info p {
+        font-size: 12px
+    }
+    .mainBanner .carousel-caption .form-inline {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fr-logo img {
+        width: 38px;
+    }
+
+    .abou-prof figure::after,
+    .abou-prof figure::before {
+        display: none;
+    }
+
+    img.prof2 {
+        margin: 1rem 0;
+    }
+}
