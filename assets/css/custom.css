@@ -616,18 +616,18 @@ ul {
 
 .slider-form .form-group i.sptico {
     color: var(--secondary);
-    background: url(../images/form-icon1.png) no-repeat;
+    background: url(../images/form-icon1.webp) no-repeat;
     width: 19px;
     height: 19px;
     display: block
 }
 
 .slider-form .form-group i.icon2 {
-    background: url(../images/form-icon2.png) no-repeat
+    background: url(../images/form-icon2.webp) no-repeat
 }
 
 .slider-form .form-group i.icon3 {
-    background: url(../images/form-icon3.png) no-repeat
+    background: url(../images/form-icon3.webp) no-repeat
 }
 
 .slider-form .form-group.btnsumb i {

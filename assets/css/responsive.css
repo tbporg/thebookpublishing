@@ -1002,7 +1002,7 @@
     }
 
     .mainbanner h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .mainbanner p {
@@ -2292,7 +2292,7 @@
 
     .service {
         background-size: cover;
-        background-position: right -40rem center;
+        background-position: right -45rem center;
     }
 
     .service-remarks ul {
